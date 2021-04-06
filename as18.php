@@ -19,19 +19,19 @@ function main() {
         array_push ($arrDeaths, $i -> TotalDeaths);
     }
     array_multisort($arrDeaths, SORT_DESC, $arrCountry);
-     echo "<table border = '1'>";
-	  echo "<th> Country </th>";
-	  echo "<th> Total Deaths </th>";
-	 echo "<tbody>";
-       for ($x = 0; $x < 10; $x++) {
-          echo "<tr>";
+    echo "<table border = '1'>";
+	echo "<th> Country </th>";
+	echo "<th> Total Deaths </th>";
+	echo "<tbody>";
+        for ($x = 0; $x < 10; $x++) {
+            echo "<tr>";
 		 
             echo "<td>".$arrCountry[$x]."</td>";
-      echo "<td>".$arrDeaths[$x]."</td>";
-          echo "</tr>";
+            echo "<td>".$arrDeaths[$x]."</td>";
+            echo "</tr>";
         }
-		echo "</tbody>";
-        echo "</table>";
+	echo "</tbody>";
+    echo "</table>";
 		
 	
 
