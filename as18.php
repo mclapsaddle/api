@@ -1,5 +1,5 @@
 <?php
-#Test to change local repo.
+#Test to change local repo
 
 echo "<a target = '_blank' href = 'https://github.com/mclapsaddle/api.git'> Go to Github </a> <br><br>";
 
